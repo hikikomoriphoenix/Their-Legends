@@ -7,5 +7,3 @@ function load(script) {
 }
 
 // Load all scripts containing functions to be used in main
-load("message.js");
-load("hello-world.js");
