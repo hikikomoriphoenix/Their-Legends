@@ -1,15 +1,10 @@
 function main() {
-    // include scripts here
-    
     // put code here if login form should be displayed
-}
 
-/**
- * Loads a javascript file
- * @param {String} script javascript file to load 
- */
-function load(script) {
-    document.write('<'+'script src="'+script+'" type="text/javascript"><' + '/script>');
+/*     var helloWorld = new HelloWorld();
+    helloWorld.message(); */
+
+    helloWorld();
 }
 
 function goToMain() {
