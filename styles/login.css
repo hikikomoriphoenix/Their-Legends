@@ -1,0 +1,31 @@
+#login-title {    
+    width: fit-content;    
+    margin: auto;
+    margin-top: 50px;
+}
+
+#login-form {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+#login-contents {
+    width: fit-content;
+    height: fit-content;
+    margin: auto auto;   
+}
+
+.login-input-unit {
+    margin-bottom: 12px;
+}
+
+#login-button {
+    width: fit-content;
+    margin: auto;
+    margin-top: 32px;
+}

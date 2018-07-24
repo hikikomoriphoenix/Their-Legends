@@ -2,12 +2,23 @@
 <html>
     <head>
         <title>Their Legends Login</title>
+        <link rel="stylesheet" type="text/css" href="../styles/login.css" />
         <script src="submit.js"></script>
     </head>
     <body>
-        <h1>Their Legends</h1>
-        <form>
-            
+        <h1 id="login-title">Their Legends</h1>
+        <form id="login-form" method="post">
+            <div id="login-contents">
+                <div class="login-input-unit">
+                    <label for="username">Username:</label><br/>
+                    <input type="text" name="input" required>
+                </div>
+                <div class="login-input-unit">
+                    <label for="password">Password:</label><br/>
+                    <input type="password" name="password" required>
+                </div>
+                <div id="login-button"><input type="submit" value="Login"></div>
+            </div>
         </form>
     </body>
 </html>
