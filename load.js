@@ -7,4 +7,3 @@ function load(script) {
 }
 
 // Load all scripts containing functions to be used in main
-load("login.js");
