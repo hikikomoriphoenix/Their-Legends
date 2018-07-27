@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Their Legends Login</title>
+        <link rel="stylesheet" type="text/css" href="../styles/login.css" />
+        <script src="../consts.js"></script>
+        <script src="submit.js"></script>
+    </head>
+    <body>
+        <h1 id="login-title">Their Legends</h1>
+        <form id="login-form" method="post" action="'BACK_END_DIR' + 'login.php'" onsubmit="return submitValidLogin()">
+            <div id="login-contents">
+                <div class="login-input-unit">
+                    <label for="username">Username:</label><br/>
+                    <input id="username" type="text" name="input" required>
+                </div>
+                <div class="login-input-unit">
+                    <label for="password">Password:</label><br/>
+                    <input id="password" type="password" name="password" required>
+                </div>
+                <div id="login-button"><input type="submit" value="Login"></div>
+            </div>
+        </form>
+    </body>
+</html>
