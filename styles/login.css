@@ -1,3 +1,8 @@
+#login-status {
+    width:fit-content;
+    float: right;
+}
+
 #login-title {    
     width: fit-content;    
     margin: auto;

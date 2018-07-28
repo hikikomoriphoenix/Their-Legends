@@ -4,12 +4,13 @@
         <title>Their Legends Login</title>
         <link rel="stylesheet" type="text/css" href="../styles/login.css" />
         <script src="../consts.js"></script>
+        <script src="../utils/network.js"></script>
         <script src="submit.js"></script>
     </head>
     <body>
+        <div id="login-status">Not logged in</div>
         <h1 id="login-title">Their Legends</h1>
-        <script>var BACK_END_LOGIN = BACK_END_DIR + "login.php";</script>
-        <form id="login-form" method="post" action="BACK_END_LOGIN" onsubmit="return submitValidLogin()">
+        <form id="login-form" method="post" onsubmit="return submitValidLogin()">
             <div id="login-contents">
                 <div class="login-input-unit">
                     <label for="username">Username:</label><br/>
